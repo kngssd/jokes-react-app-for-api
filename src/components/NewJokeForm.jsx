@@ -26,14 +26,12 @@ const NewJokeForm = () => {
         value={jokeText}
         onChange={(e) => setJokeText(e.target.value)}
         placeholder="Enter your joke"
-        required
       />
       <input
         type="text"
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
         placeholder="Author"
-        required
       />
       <button type="submit">Submit</button>
     </form>
