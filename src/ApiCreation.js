@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/jokes";
+const API_URL = "https://db-jokes-api-dana.onrender.com/jokes";
 
 export const getAllJokes = async () => {
   try {
